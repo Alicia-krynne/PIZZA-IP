@@ -22,7 +22,7 @@ body{
     padding: 2rem ,4rem;
     z-index: 1000;
 }
-#nav{
+nav{
         display: flex;
         align-items: center;
         justify-content:space-around;
@@ -31,14 +31,43 @@ body{
     }
     a{
        font-size: 12pt; 
-       color: darkorchid;
+       color: rgb(36, 34, 37);
     }
     :hover{
-        color: hotpink;
+        color: rgb(46, 43, 45);
         text-decoration:none ;
     }
-    
-
+    h1{
+        text-align: center;
+    }
+.HEADING{
+    font-family: 'Sofia';
+    font-size: 12pt;
+ }
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
 
         
    

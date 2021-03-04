@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="icon" href="./img/pizzaicon.jpg" type="img/jpg">
-    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/script.js"></script>
 </head>
 <body>
     <!--HEADER BEGINS HERE-->
@@ -27,5 +27,72 @@
         </nav>
     </header>
     <!--HEADER ENDS HERE-->  
+    <br><br>
+    <div class="HEADING">
+        <h1>Welcome to JOON'S PIZZA!</h1>
+    </div>
+    <P>Custom make your own pizza here. At JOON'S PIZZA we believe in  choice.</P>
+    <br> <br>
+    <p>the only  wierd combination is pineapple on pizza</p>
+    <div class="container">
+        <button class="accordion">pizza size</button>
+        <div class="panel">
+        <div id="sizetable">
+            <h3 class="tablehead">Select size*:</h3>
+                <div class="menu initiallyHidden">	
+                    <input type="radio" name="size" value="Personal"> Personal<br>
+                    <input type="radio" name="size" value="Medium"> Medium<br>
+                    <input type="radio" name="size" value="Large"> Large<br>
+                    <input type="radio" name="size" value="Extra-Large"> Extra-Large<br>
+                </div>
+            </div>
+        </div>
+            <br>
+        <button class="accordion">Crust</button>
+        <div class="panel">
+        <div id="crusttable">
+            <h3 class="tablehead">Select crust*:</h3>
+                <div class="menu initiallyHidden">	
+                    <input type="radio" name="crust" value="Plain"> Plain Crust<br>
+                    <input type="radio" name="crust" value="Garlic Butter"> Garlic Butter Crust<br>
+                    <input type="radio" name="crust" value="Cheese-Stuffed"> Cheese-Stuffed Crust<br>
+                    <input type="radio" name="crust" value="Spicy"> Spicy Crust<br>
+                    <input type="radio" name="crust" value="House Special"> House Special Crust<br>
+                </div>
+            </div>
+        </div>
+            <br>
+        <button class="accordion">Cheese</button>
+        <div class="panel">
+            <div id="cheesetable">
+                <h3 class="tablehead">Select cheese*:</h3>
+                    <div class="menu initiallyHidden">	
+                    <input type="radio" name="cheese" value="No"> No Cheese<br>
+                    <input type="radio" name="cheese" value="Regular"> Regular<br>
+                    <input type="radio" name="cheese" value="Extra"> Extra Cheese<br>
+                </div>
+            </div>
+        </div>
+            <br>
+            
+            <button class="accordion">choice of meat</button>
+        <div class="panel">
+        <div id="meattable">
+            <h3 class="tablehead">Select your choice of meat(s):</h3>
+                <div class="menu initiallyHidden">
+                    <input type="checkbox" name="meat" value="Pepperoni"> Pepperoni<br>
+                    <input type="checkbox" name="meat" value="Sausage"> Sausage<br>
+                    <input type="checkbox" name="meat" value="Canadian Bacon"> Canadian Bacon<br>
+                    <input type="checkbox" name="meat" value="Ground Beef"> Ground Beef<br>
+                    <input type="checkbox" name="meat" value="Anchovies"> Anchovies<br>
+                    <input type="checkbox" name="meat" value="Chicken"> Chicken<br>
+                </div>
+            </div>
+        </div>
+  </div>
+
+
+
+  <script src="./js/jquery-3.6.0.js"></script>
 </body>
 </html>
