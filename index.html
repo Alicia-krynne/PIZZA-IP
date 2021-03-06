@@ -14,125 +14,30 @@
     <script src="./js/script.js"></script>
 </head>
 <body>
-  <div class="HEADING">
-    <h1>Welcome to JOON'S PIZZA!</h1>
-  </div>
-  <div class="about">
-      <h1>AboutJOON'S PIZZA</h1>
-      <P>INSPIRATION BEHIND</P>
-  </div>
-  <div class="pizza">
-      <p>here are some of our house specials</p>
-  </div>
-  <div class="others">
-      <p>our other  branches </p>
-  </div>
-  <div class="menu">
-            <div id="sizetable">
-                <h3 class="tablehead">Choose Size:</h3>
-                <div class="menuHidden">	
-                    <input type="radio" name="size" value="Personal"> Personal<br>
-                    <input type="radio" name="size" value="Medium"> Medium<br>
-                    <input type="radio" name="size" value="Large"> Large<br>
-                </div>
-            </div>
-            <br>
-            <div id="cheesetable">
-                <h3 class="tablehead">Choose Cheese:</h3>
-                <div class="menuHidden">	
-                    <input type="radio" name="cheese" value="No"> No Cheese<br>
-                    <input type="radio" name="cheese" value="Regular"> Regular<br>
-                    <input type="radio" name="cheese" value="Extra"> Extra Cheese<br>
-                </div>
-            </div>
-            <br>
-            
-            <div id="crusttable">
-                <h3 class="tablehead">Choose Crust:</h3>
-                <div class="menuHidden">	
-                    <input type="radio" name="crust" value="Plain"> Plain Crust<br>
-                    <input type="radio" name="crust" value="Spicy"> Spicy Crust<br>
-                    <input type="radio" name="crust" value="House Special"> House Special Crust<br>
-                </div>
-            </div>
-            <br>
-            
-            <div id="saucetable">
-                <h3 class="tablehead">Choose Sauce:</h3>
-                <div class="menuHidden">	
-                    <input type="radio" name="sauce" value="Marinara"> Marinara Sauce<br>
-                    <input type="radio" name="sauce" value="Barbecue"> Redbean Sauce<br>
-                    <input type="radio" name="sauce" value="No"> No Sauce<br>
-                </div>
-            </div>
-            <br>
-            
-            <div id="meattable">
-                <h3 class="tablehead">Choose meat(s):</h3>
-                <div class="menu initiallyHidden">
-                    <input type="checkbox" name="meat" value="Pepperoni"> Bulgoggi<br>
-                    <input type="checkbox" name="meat" value="Sausage"> Samgyeospal<br>
-                    <input type="checkbox" name="meat" value="Canadian Bacon">Bacon<br>
-                    <input type="checkbox" name="meat" value="Chicken"> Chicken<br>
-                </div>
-            </div>
-            <br>
-            
-            <div id="vegtable">
-                <h3 class="tablehead">Choose veggie(s):</h3>
-                <div class="menuHidden">
-                    <input type="checkbox" name="veg" value="Tomatoes">Bean Sprouts<br>
-                    <input type="checkbox" name="veg" value="Onions"> Sweet Corn<br>
-                    <input type="checkbox" name="veg" value="Olives"> Potato Wedges<br>
-                    <input type="checkbox" name="veg" value="Mushrooms"> Mushrooms<br>
-                </div>
-            </div>
-  </div>
-        <br>
-<div class="invoice">
-        <button id="calc" type="submit" onclick="invoice()">Submit order</button>
+<div class="Container">
+        <div class="HEADING">
+            <h1>Welcome to JOON'S PIZZA!</h1>
+        </div>
+     
+<div class="specials"> 
+ <h3>OUR HOUSE  SPECIALS</h3>
+ <P> build your  own pizza here.</P>
 </div>
-        <br><br>
-  <table class="pizza" style="width: 50%;" :border="1" cellpadding="5">
-            <tbody>
-                <tr>
-                    <td id="size"></td>
-                    <td id="sizeprice"></td>
-                </tr>
-                <tr>
-                    <td id="crust"></td>
-                    <td id="crustprice"></td>
-                </tr>
-                <tr>
-                    <td id="cheese"></td>
-                    <td id="cheeseprice"></td>
-                </tr>
-                <tr>
-                    <td id="sauce"></td>
-                    <td id="sauceprice"></td>
-                </tr>
-                <tr>
-                    <td id="meat"></td>
-                    <td id="meatprice"></td>
-                </tr>
-                <tr>
-                    <td id="veg"></td>
-                    <td id="vegprice"></td>
-                </tr>
-                <tr>
-                  <td><strong>TOTAL PRICE:</strong></td>
-                    <td id="totalprice"></td>
-                </tr>
-            </tbody>
-  </table>
-<div class="Delivery">
-    <p>Choose your Delivery option</p>
-</div>
-<div class="Contact">
-     <p>leave us a message here</p>
+<!--attach a button for menu here-->
+<div class="About">
+    <P>About  JOON'S PIZZA</P> 
+    <br><br>
+    <p>Why Joon's Pizza ?</p>
+<!--add about  me sectio  here coplete  with  different  fontypes and a back ground-->
 </div>
 
+    <div class="Contact">
+        <p>leave us a message here</p>
+    </div>
+<!--add a form here-->
 </div>
+
+<!--CREATE SECTONS TO  TYLE DIFFERENTLY, ADD IMAGES FOR BACKGROUNDS AND PIZZAS-->
   <script src="./js/jquery-3.6.0.js"></script>
 </body>
 </html>
