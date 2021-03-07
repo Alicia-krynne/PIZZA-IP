@@ -112,3 +112,8 @@ $("#totalprice").html(" $"+totalPrice+".00");
 };
 
 
+$('.main').click(function () {
+  $(this).children('.hide').slideToggle();
+  $(this).children('.show').toggle();
+});
+
