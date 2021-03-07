@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JOON'S PIZZA</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="./css/fontawesome.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'">
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<div class="Container">
+    <div class="Container">
         <div class="HEADING">
             <h1>JOON'S PIZZA</h1>
         </div>
@@ -25,12 +25,26 @@
             <a class="click-me"  href="./about.html">About Us</a>
             <a class="click-me" href="./contact.html">Contact Us</a>
         </nav>
-<div class="specials"> 
- <h3>OUR HOUSE  SPECIALS</h3>
- <P> build your  own pizza here.</P>
- <a class="build" href="./menu.html">Menu</a>
+
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="subject">MESSAGE </label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
 </div>
 
-        <script src="./js/jquery-3.6.0.js"></script>
+
+
+
+    <script src="./js/jquery-3.6.0.js"></script>
 </body>
 </html>
