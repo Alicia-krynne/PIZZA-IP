@@ -19,17 +19,74 @@
         <div class="HEADING">
             <h1>JOON'S PIZZA</h1>
         </div>
-        <nav>
-            <a class="click-me" href="./index.html">Home</a>
+        <div class="topnav">
+            <a class="active" href="./index.html">Home</a>
             <a class="click-me" href="./menu.html">Menu</a>
             <a class="click-me"  href="./about.html">About Us</a>
             <a class="click-me" href="./contact.html">Contact Us</a>
-        </nav>
-<div class="specials"> 
- <h3>OUR HOUSE  SPECIALS</h3>
- <P> build your  own pizza here.</P>
- <a class="build" href="./menu.html">Menu</a>
-</div>
+          </div>
+<section id="slide">
+    <h2 style="text-align:center">Pizza Gallery</h2>
+    <div class="container">
+    <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="./img/chiminea.gif" style="width:75%">
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="./img/bulgoggi.jpg" style="width:75%">
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="./img/corn.png" style="width:75%">
+    </div>
+        
+    <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="./img/vegpizza.jpg" style="width:75%">
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="./img/asorted.jpeg" style="width:75%">
+    </div>
+        
+    <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="./img/kuku.jpg" style="width:75%">
+    </div>
+        
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+    <div class="caption-container">
+        <p id="caption"></p>
+    </div>
+
+    <div class="row">
+        <div class="column">
+        <img class="demo cursor" src="./img/chiminea.gif" style="width:75%" onclick="currentSlide(1)" alt="wood oven ">
+        </div>
+        <div class="column">
+        <img class="demo cursor" src="./img/bulgoggi.jpg" style="width:75%" onclick="currentSlide(2)" alt="Bulgoggi pizza">
+        </div>
+        <div class="column">
+        <img class="demo cursor" src="./img/corn.png" style="width:75%" onclick="currentSlide(3)" alt="corn pizza">
+        </div>
+        <div class="column">
+        <img class="demo cursor" src="./img/vegpizza.jpg" style="width:75%" onclick="currentSlide(4)" alt="veg pizza">
+        </div>
+        <div class="column">
+        <img class="demo cursor" src="./img/asorted.jpeg" style="width:75%" onclick="currentSlide(5)" alt="assorted pizza">
+        </div>    
+        <div class="column">
+        <img class="demo cursor" src="./img/kuku.jpg" style="width:75%" onclick="currentSlide(6)" alt="chicken pizza">
+        </div>
+    </div>
+    </div>
+</section>
 
         <script src="./js/jquery-3.6.0.js"></script>
 </body>
