@@ -148,15 +148,7 @@ table {
     margin-bottom: 16px;
     padding: 0 8px;
   }
-  
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 40%;
-      display: block;
-    }
-  }
-  
-  
+
 
   .image {
     display: block;
@@ -385,3 +377,79 @@ img {
 .demo:hover {
   opacity: 1;
 }
+* {box-sizing: border-box}
+
+#signup{
+  width:40%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  background-color:  #e605fa;
+}
+input[type=text], input[type=password] {
+  width:50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f703f7;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: rgb(238, 4, 226);
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+button {
+  background-color: #e671dc;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #e70e61;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 25%;
+}
+
+.container {
+  padding: 30px;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 50%;
+  }
+}
+  
+@media screen and (max-width: 650px) {
+  .column {
+    width: 40%;
+    display: block;
+  }
+}
+
