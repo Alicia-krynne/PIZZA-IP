@@ -528,6 +528,8 @@ button:hover {
 }
 footer{
   text-align: center;
+  background-image: url(/img/Purple-Aesthetic-Wallpaper-14.jpg);
+  color: crimson;
 }
 
 @media screen and (max-width: 300px) {
